@@ -1,0 +1,49 @@
+body{
+    background-image: url('clr.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.formsection{
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    transform: translate(-50%,-50%);
+    position:absolute;
+    box-sizing:border-box;
+    background-color:lightseagreen;
+    opacity:0.5;
+    text-align: center;
+    display: block;
+    top: 50%;
+    left: 50%;
+}
+.vasanthy{
+    overflow: hidden;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.vasanthy a {
+    float:left;
+    display: block;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px 70px;
+    text-decoration: blueviolet;
+}
+.vasanthy a:hover {  
+    background-color: rgb(255, 249, 220);
+    color: black;
+}
+div.formsection {
+    box-shadow:lightseagreen ;
+}
+.option{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 50px 50px;
+    margin-bottom: 30px;
+}
